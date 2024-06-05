@@ -70,9 +70,6 @@ export default async function Home() {
             </Link>
           </div>
         </div>
-        <div className="mx-auto max-w-2xl pt-4 sm:pt-8 lg:pt-12">
-          <NextSteps />
-        </div>
       </div>
     </div>
   );
