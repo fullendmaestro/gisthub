@@ -17,9 +17,9 @@ const config: Config = {
     },
     colors: {
       ...colors,
-      primary: "rgb(14 128 95)",
-      primarylight: "rgb(248 255 253)",
-      primaryhover: "rgb(35 157 122)",
+      primary: "#0051ff",
+      primarylight: "#e6ecff",
+      primaryhover: "#6797ff",
     },
   },
   plugins: [require("@tailwindcss/forms")],
