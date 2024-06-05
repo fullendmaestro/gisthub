@@ -18,7 +18,7 @@ export default async function Home() {
             {!signedIn ? (
               <>
                 <Link
-                  href={auth.getBuiltinUIUrl()}
+                  href={"https://gisthub-beta.vercel.app/auth/builtin/signin"}
                   prefetch={false}
                   className="text-sm font-semibold leading-6 text-gray-800"
                 >
@@ -27,7 +27,7 @@ export default async function Home() {
                   </button>
                 </Link>
                 <Link
-                  href={auth.getBuiltinUISignUpUrl()}
+                  href={"https://gisthub-beta.vercel.app/auth/builtin/signup"}
                   prefetch={false}
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
