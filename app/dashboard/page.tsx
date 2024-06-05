@@ -24,11 +24,11 @@ export default async function Home() {
     <>
       <header className="flex justify-between items-center pb-4">
         <h1 className="text-2xl font-bold leading-tight tracking-tight text-gray-900">
-          Items
+          Gists 🗣️
         </h1>
         <Link href="/dashboard/new">
           <button className="bg-primary text-white px-3 py-2 rounded-md text-xs font-semibold">
-            + New Item
+            + New Gist
           </button>
         </Link>
       </header>
