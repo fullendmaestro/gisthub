@@ -61,7 +61,7 @@ export default async function Home() {
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
               A one place house place where anyone anyplace anytime can share a
-              gist or be gisted 🤝
+              gist or be gisted 🤝.
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
               Let's disturb the house 🏚️
