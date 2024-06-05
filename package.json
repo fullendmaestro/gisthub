@@ -38,10 +38,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "npx @edgedb/generate edgeql-js",
     "auth:setup": "pnpm esr password-auth-setup.ts",
     "generate:edgeql": "npx @edgedb/generate edgeql-js",
     "generate:interfaces": "npx @edgedb/generate interfaces",
-    "generate:all": "pnpm generate:edgeql && pnpm generate:interfaces"
+    "generate:all": "pnpm generate:edgeql && pnpm generate:interfaces",
+    "prebuild": "npx @edgedb/generate edgeql-js"
   }
 }
