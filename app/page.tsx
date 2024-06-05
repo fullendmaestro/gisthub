@@ -57,11 +57,20 @@ export default async function Home() {
               GIST HUB
             </h1>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Welcome to GISTHUB. A place where anyone anyplace anytime can
-              share a gist or be gisted 🤝
+              Welcome to GISTHUB🤝
+            </p>
+            <p className="mt-6 text-base leading-7 text-gray-600">
+              A one place house place where anyone anyplace anytime can share a
+              gist or be gisted 🤝
+            </p>
+            <p className="mt-6 text-base leading-7 text-gray-600">
+              Let's disturb the house 🏚️
+            </p>
+            <p className="mt-6 text-base leading-7 text-gray-600">
+              Have Fun 🎉
             </p>
             <Link
-              href="/home"
+              href="/dashboard"
               className="text-sm font-semibold leading-6 text-gray-800"
             >
               <button className="rounded-md bg-primary-100 px-4 py-2 ring-2 ring-inset ring-primary-500">
