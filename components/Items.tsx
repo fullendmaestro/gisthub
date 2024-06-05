@@ -1,15 +1,15 @@
-import { Item } from "@/dbschema/interfaces";
+// import { Item } from "@/dbschema/interfaces";
 import DeleteItem from "./DeleteItem";
 import { auth } from "@/edgedb";
 
-interface Props {
-  items: (Omit<Item, "created_by"> & {
-    created_by: {
-      name: string;
-      email: string | null;
-    };
-  })[];
-}
+// interface Props {
+//   items: (Omit<Item, "created_by"> & {
+//     created_by: {
+//       name: string;
+//       email: string | null;
+//     };
+//   })[];
+// }
 const deleteItem = async (id: string) => {
   "use server";
   const session = auth.getSession();
@@ -25,7 +25,7 @@ const deleteItem = async (id: string) => {
   return null;
 };
 
-export default function Items({ items }: Props) {
+export default function Items({ items }) {
   return (
     <ul role="list" className="divide-y divide-gray-200">
       {items.map((item) => (
