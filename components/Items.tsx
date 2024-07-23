@@ -29,7 +29,10 @@ export default function Items({ items }) {
   return (
     <ul role="list" className="divide-y divide-gray-200">
       {items.map((item) => (
-        <li key={item.id} className="flex gap-x-4 py-5">
+        <li
+          key={item.id}
+          className="flex gap-x-4 my-2 py-5 bg-light-900 shadow-light-100 bg-primarylight px-3 rounded-md"
+        >
           <div className="flex-auto">
             <div className="flex items-baseline justify-between gap-x-4">
               <p className="text-sm font-semibold leading-6 text-gray-900">
